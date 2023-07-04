@@ -72,8 +72,6 @@
     background-color: var(--dark);
     text-align: center;
     vertical-align: middle;
-    height: 100%;
-    width: 100%;
   }
   
   #welcome-section > * {
@@ -101,8 +99,6 @@
   #projects {
     /* background-color: var(--dark); */
     background-color: var(--navy);
-    height: 100%;
-    width: 100%;  
   }
   
   #projects h2 {
@@ -165,8 +161,6 @@
   #social-media {
     background-color: var(--dark);
     margin-top: -32px;
-    height: 100%;
-    width: 100%;
   }
   
   #social-media > * {
