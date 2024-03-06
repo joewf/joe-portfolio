@@ -63,7 +63,7 @@ function App() {
                   <div className="relative">
                     <button
                       onClick={toggleMobileMenu}
-                      className="ml-4 text-xl font-burtons cursor-pointer"
+                      className="ml-4 text-2xl font-burtons cursor-pointer"
                     >
                       ☰
                     </button>
