@@ -82,7 +82,7 @@ function App() {
                           Portfolio
                         </a>
                         <a
-                          href="/public/resume_joe_wu.pdf"
+                          href="./resume_joe_wu.pdf"
                           download="resume_joe_wu.pdf"
                           className="block px-4 py-2 text-gray-800 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 font-burtons"
                         >
@@ -104,7 +104,7 @@ function App() {
                     <li>
                       <a
                         className="bg-gradient-to-r from-cyan-500 to-teal-500  bg-cyan-500 text-white px-4 py-2 rounded-md ml-8"
-                        href="/public/resume_joe_wu.pdf"
+                        href="./resume_joe_wu.pdf"
                         download="resume_joe_wu.pdf">
                         Resume
                       </a>
