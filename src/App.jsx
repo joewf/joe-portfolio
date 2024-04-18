@@ -72,12 +72,14 @@ function App() {
                         <a
                           href="#home"
                           className="block px-4 py-2 text-gray-800 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 font-burtons"
+                          onClick={toggleMobileMenu}
                         >
                           Home
                         </a>
                         <a
                           href="#portfolio"
                           className="block px-4 py-2 text-gray-800 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 font-burtons"
+                          onClick={toggleMobileMenu}
                         >
                           Portfolio
                         </a>
