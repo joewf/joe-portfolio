@@ -81,13 +81,13 @@ function App() {
                         >
                           Portfolio
                         </a>
-                        <a
-                          href="/public/resume_joe_wu.pdf"
+                        {/* <a
+                          href="./resume_joe_wu.pdf"
                           download="resume_joe_wu.pdf"
                           className="block px-4 py-2 text-gray-800 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 font-burtons"
                         >
                           Resume
-                        </a>
+                        </a> */}
                       </div>
                     )}
                   </div>
@@ -101,14 +101,14 @@ function App() {
                   <ul className=" flex items-center"
                     onClick={() => setDarkMode(!darkMode)}>
                     <li><BsFillMoonStarsFill className="cursor-pointer text-2xl" /></li>
-                    <li>
+                    {/* <li>
                       <a
                         className="bg-gradient-to-r from-cyan-500 to-teal-500  bg-cyan-500 text-white px-4 py-2 rounded-md ml-8"
-                        href="/public/resume_joe_wu.pdf"
+                        href="./resume_joe_wu.pdf"
                         download="resume_joe_wu.pdf">
                         Resume
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </>
               )}
