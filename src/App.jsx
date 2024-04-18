@@ -98,9 +98,9 @@ function App() {
                     <li><a href="#home" className="text-xl font-burtons cursor-pointer">Home</a></li>
                     <li><a href="#portfolio" className="text-xl font-burtons cursor-pointer">Portfolio</a></li>
                   </ul>
-                  <ul className=" flex items-center"
-                    onClick={() => setDarkMode(!darkMode)}>
-                    <li><BsFillMoonStarsFill className="cursor-pointer text-2xl" /></li>
+                  <ul className=" flex items-center">
+                    <li><BsFillMoonStarsFill className="cursor-pointer text-2xl"
+                      onClick={() => setDarkMode(!darkMode)} /></li>
                     {/* <li>
                       <a
                         className="bg-gradient-to-r from-cyan-500 to-teal-500  bg-cyan-500 text-white px-4 py-2 rounded-md ml-8"
